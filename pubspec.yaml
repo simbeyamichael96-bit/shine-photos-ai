@@ -1,0 +1,14 @@
+name: shine_photos_ai
+description: Shine Photos AI
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  google_mobile_ads: ^5.1.0
+  image_picker: ^1.0.7
+  cupertino_icons: ^1.0.2
+flutter:
+  uses-material-design: true

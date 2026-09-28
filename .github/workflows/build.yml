@@ -15,7 +15,7 @@ jobs:
         with:
           flutter-version: '3.22.2'
           channel: 'stable'
-      - run: flutter create . --platforms=android
+      - run: flutter create --project-name shine_photos_ai . --platforms=android
       - run: flutter pub get
       - run: flutter build apk --release
       - uses: actions/upload-artifact@v4
